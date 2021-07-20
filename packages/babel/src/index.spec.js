@@ -1,4 +1,3 @@
-
 const { hello } = require("./index");
 
 describe("# index", () => {
