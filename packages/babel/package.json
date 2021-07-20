@@ -1,0 +1,27 @@
+{
+  "name": "node-init-javascript-babel",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "babel-watch src/index.js",
+    "dev:lib": "jest --watch src/*",
+    "start": "node dist/index.js",
+    "_dist": "babel ./src --out-dir ./dist",
+    "dist": "yarn _dist --source-maps",
+    "dist:prod": "NODE_ENV=production yarn _dist",
+    "clean": "rm -rf ./dist",
+    "test": "jest src"
+  },
+  "devDependencies": {
+    "@babel/cli": "~7.14.5",
+    "@babel/core": "~7.14.0",
+    "@babel/eslint-parser": "~7.14.0",
+    "@babel/plugin-proposal-decorators": "~7.14.0",
+    "@babel/plugin-transform-runtime": "~7.14.0",
+    "@babel/preset-env": "~7.14.0",
+    "@babel/preset-typescript": "~7.14.0",
+    "babel-plugin-module-resolver": "~4.1.0",
+    "babel-watch": "~7.5.0",
+    "jest": "~27.0.6"
+  }
+}
