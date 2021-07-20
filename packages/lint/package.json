@@ -3,13 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "start": "node src/index.ts",
     "lint": "eslint .",
-    "lint:fix": "yarn lint --fix",
-    "test": "echo noop!"
+    "lint:fix": "yarn lint --fix"
   },
   "devDependencies": {
-    "nodemon": "2.0.12"
+    "eslint": "~7.26.0",
+    "eslint-config-prettier": "~8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-json": "~3.0.0",
+    "eslint-plugin-prettier": "~3.4.0",
+    "prettier": "~2.3.0"
   }
 }

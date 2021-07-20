@@ -1,2 +1,22 @@
+/* eslint-disable no-constant-condition */
+const hello = ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : ""
+  ? ""
+  : "";
 
-export default "";
+module.exports = hello;
