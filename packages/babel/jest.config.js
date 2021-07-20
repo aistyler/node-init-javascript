@@ -1,7 +1,10 @@
+
+const pathconfig = require("./pathconfig");
+
 module.exports = {
   rootDir: ".",
   testEnvironment: 'node',
   moduleNameMapper: {
-    "^@/src/(.*)$": "<rootDir>/src/$1",
+    ...pathconfig.jest,
   },
 };

@@ -1,5 +1,5 @@
 const path = require("path");
-const jsconfig = require("./paths");
+const pathconfig = require("./pathconfig");
 
 module.exports = {
   "targets": {
@@ -10,10 +10,9 @@ module.exports = {
     [
       "babel-plugin-module-resolver",
       {
-        root: [path.resolve(jsconfig.compilerOptions.baseUrl)],
+        root: [path.resolve(pathconfig.compilerOptions.baseUrl)],
         "alias": {
-          ...jsconfig.compilerOptions.paths,
-          //"@/src/*": "./src/*"
+          ...pathconfig.babel
         },
       },
     ],

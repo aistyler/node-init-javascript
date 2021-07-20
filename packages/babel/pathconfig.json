@@ -4,5 +4,11 @@
     "paths": {
       "@/src/*": ["./src/*"]
     }
+  },
+  "babel": {
+    "@/src": "./src"
+  },
+  "jest": {
+    "^@/src/(.*)$": "<rootDir>/src/$1"
   }
 }
