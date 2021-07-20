@@ -1,0 +1,14 @@
+{
+  "name": "node-init-typescript-basic",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node src/index.ts",
+    "test": "jest src"
+  },
+  "devDependencies": {
+    "jest": "~27.0.6",
+    "nodemon": "2.0.12"
+  }
+}

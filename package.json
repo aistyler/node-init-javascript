@@ -1,0 +1,16 @@
+{
+  "name": "node-init-javascript",
+  "private": true,
+  "scripts": {
+  },
+  "devDependencies": {},
+  "workspaces": [
+    "packages/*"
+  ],
+  "nodeInitIgnore": [
+    ".prettierrc",
+    ".gitignore",
+    "README.md",
+    "yarn.lock"
+  ]
+}

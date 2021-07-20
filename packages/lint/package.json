@@ -1,0 +1,15 @@
+{
+  "name": "node-init-javascript-lint",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node src/index.ts",
+    "lint": "eslint .",
+    "lint:fix": "yarn lint --fix",
+    "test": "echo noop!"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  }
+}
