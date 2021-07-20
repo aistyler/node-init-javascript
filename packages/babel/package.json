@@ -8,8 +8,10 @@
     "start": "node dist/index.js",
     "_dist": "babel ./src --out-dir ./dist",
     "dist": "yarn _dist --source-maps",
-    "dist:prod": "NODE_ENV=production yarn _dist",
+    "dist:prod": "yarn clean && NODE_ENV=production yarn _dist",
     "clean": "rm -rf ./dist",
+    "lint": "eslint .",
+    "lint:fix": "yarn lint --fix",
     "test": "jest src"
   },
   "devDependencies": {
@@ -22,6 +24,14 @@
     "@babel/preset-typescript": "~7.14.0",
     "babel-plugin-module-resolver": "~4.1.0",
     "babel-watch": "~7.5.0",
+    "eslint": "~7.26.0",
+    "eslint-config-prettier": "~8.3.0",
+    "eslint-import-resolver-babel-module": "~5.3.1",
+    "eslint-plugin-import": "~2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-json": "~3.0.0",
+    "eslint-plugin-prettier": "~3.4.0",
+    "prettier": "~2.3.0",
     "jest": "~27.0.6"
   }
 }
