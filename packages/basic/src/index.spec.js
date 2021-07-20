@@ -1,5 +1,5 @@
 
-import { hello } from "./index";
+const { hello } = require("./index");
 
 describe("# index", () => {
   it("## hello", () => {

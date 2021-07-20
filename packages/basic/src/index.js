@@ -1,6 +1,6 @@
 
-import hello from "./lib/hello";
+const hello = require("@/src/lib/hello");
 
-export {
+module.exports = {
   hello,
 };

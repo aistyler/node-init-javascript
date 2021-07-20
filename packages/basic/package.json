@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "start": "node src/index.ts",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "jest src"
   },
   "devDependencies": {

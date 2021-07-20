@@ -1,5 +1,5 @@
 
-import hello from "./hello";
+const hello = require("./hello");
 
 describe("# hello", () => {
   it("## hello", () => {
