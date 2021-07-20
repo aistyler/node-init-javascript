@@ -1,5 +1,5 @@
 
-const hello = require("@/src/lib/hello");
+const hello = require("./lib/hello");
 
 module.exports = {
   hello,
