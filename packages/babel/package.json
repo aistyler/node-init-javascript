@@ -6,13 +6,13 @@
     "dev": "babel-watch src/index.js",
     "dev:lib": "jest --watch src/*",
     "start": "node dist/index.js",
-    "_dist": "babel ./src --out-dir ./dist",
-    "dist": "yarn _dist --source-maps",
-    "dist:prod": "yarn clean && NODE_ENV=production yarn _dist",
+    "dist": "babel ./src --out-dir ./dist --source-maps",
+    "dist:prod": "yarn clean && NODE_ENV=production babel ./src --out-dir ./dist",
     "clean": "rm -rf ./dist",
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
-    "test": "jest src"
+    "test": "jest src",
+    "all": "yarn test && yarn lint && yarn dist && yarn start"
   },
   "devDependencies": {
     "@babel/cli": "~7.14.5",
