@@ -1,6 +1,6 @@
 # node-init-javascript-basic
 
-## Technologies
+## Keywords
 
 - javascript
 - jest

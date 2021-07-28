@@ -1,6 +1,6 @@
 # node-init-javascript-lint
 
-## Technologies
+## Keywords
 
 - javascript
 - eslint
