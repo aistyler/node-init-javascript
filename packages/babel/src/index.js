@@ -1,5 +1,5 @@
-import world from "@/src/lib/world";
-const hello = require("@/src/lib/hello");
+import world from "@/lib/world";
+const hello = require("@/lib/hello");
 
 console.log(hello(), world());
 

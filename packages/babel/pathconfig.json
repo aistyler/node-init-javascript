@@ -2,13 +2,20 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/src/*": ["./src/*"]
+      "@/src/*": [
+        "./src/*"
+      ],
+      "@/lib/*": [
+        "./src/lib/*"
+      ]
     }
   },
   "babel": {
-    "@/src": "./src"
+    "@/src": "./src",
+    "@/lib": "./src/lib"
   },
   "jest": {
-    "^@/src/(.*)$": "<rootDir>/src/$1"
+    "^@/src/(.*)$": "<rootDir>/src/$1",
+    "^@/lib/(.*)$": "<rootDir>/src/lib/$1"
   }
 }
