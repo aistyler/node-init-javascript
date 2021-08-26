@@ -1,4 +1,4 @@
-# node-init-javascript-basic
+# yanc-javascript-basic
 
 ## Keywords
 
@@ -7,11 +7,11 @@
 
 ## Usage
 
-```npx aistyler/node-init {options} aistyler/node-init-javascript "packages/basic/**"```
+```npx aistyler/yanc {options} aistyler/yanc-javascript "packages/basic/**"```
 
-- See [aistyler/node-init](https://github.com/aistyler/node-init) for details.
+- See [aistyler/yanc](https://github.com/aistyler/yanc) for details.
 - e.g.
 
   ```sh
-  npx aistyler/node-init -o ./tmp aistyler/node-init-javascript "packages/basic/**"
+  npx aistyler/yanc -o ./tmp aistyler/yanc-javascript "packages/basic/**"
   ```

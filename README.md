@@ -1,4 +1,4 @@
-# node-init-javascript
+# yanc-javascript
 
 ## Usage
 

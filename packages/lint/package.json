@@ -1,5 +1,5 @@
 {
-  "name": "node-init-javascript-lint",
+  "name": "yanc-javascript-lint",
   "private": true,
   "version": "1.0.0",
   "scripts": {
